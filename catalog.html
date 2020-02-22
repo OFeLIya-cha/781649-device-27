@@ -7,13 +7,14 @@
     <body>
         <header class="page-header">
             <nav class="page-nav">
-                <a class="page-header-logo">
+                <a href="index.html" class="page-header-logo">
                     <img src="asd" width="163px" height="35px" alt="Логотип Device" >
                 </a>
                 <!--Здесь будет форма поиска по страницам!-->
-                <span class="login-link">
-                    <img src="asd" width="13px" height="12px" alt="Войти" ><a href="#">Войти</a>
-                </span>
+                <ul class="my-cabinet">
+                    <li><a href="#">Валентин Петухов</a></li>
+                    <li><a href="#">Выйти</a></li>
+                </ul>
                 <span class="compare">
                     <img src="asd" width="10px" height="10px" alt="Сравнить" ><a href="#">Сравнить</a>
                 </span>
@@ -21,7 +22,7 @@
                     <img src="asd" width="12px" height="12px" alt="Корзина" ><a href="#">Корзина</a>
                 </span>
                 <ul class="site-navigation">
-                    <li><a href="catalog.html" class="site-navigation_catolog">Католог товаров</a></li>
+                    <li><a href="catalog.html" class="site-navigation_catolog-current">Католог товаров</a></li>
                     <li><a href="#" class="site-navigation_delivery">Доставка</a></li>
                     <li><a href="#" class="site-navigation_guarantee">Гарантия</a></li>
                     <li><a href="#" class="site-navigation_contacts">Контакты</a></li>
@@ -29,33 +30,41 @@
             </nav>
         </header>
         <main class="page-main">
-            <h1 class="visually-hidden">Магазин «Device»</h1>
-            <section class="about-us">
-                <h2>О нас</h2>
-                <p>
-                    Огромный выбор гаджетов не оставит равнодушным гика, который есть в каждом из нас.
-                </p>
-                <p>
-                    Мы можем доставить ваш товар в самые отдаленные точки России! DEVICE работает со многими транспортными компаниями:
-                </p>
-                <ul class="about-us-company">
-                    <li>Деловые Линии</li>
-                    <li>Автотрейдинг</li>
-                    <li>ЖелДорЭкспедиция</li>
-                </ul>
-                <a href="#">Подробнее о нас</a>
+            <h1>Моноподы для селфи</h1>
+            <ul class="breadcrumbs">
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="catalog.html">Католог товаров</a></li>
+                <li>Моноподы для селфи</li>
+            </ul>
+            <section class="filters">
+                <!--Здесь будет форма фильтров-->
             </section>
-            <section class="contacts">
-                <h2>Контакты</h2>
-                <p>
-                    Вы можете забрать товар сами, заехав в наш офис.
-                    Заодно, вы сможете проверить работоспособность покупки.
-                    Всякое бывает.
-                </p>
-                <span>
-                    <!--Карта!-->
-                </span>
-                <a href="#">Напишите нам</a>
+            <section class="catalog">
+                <h2 class="visually-hidden">
+                    Список моноподов для селфи
+                </h2>
+                <ul class="list-of-products">
+                    <li>
+                        <h3>Любительская селфи-палка</h3>
+                        <img src="asd" width="360px" height="380px" alt=" Фото любительской селфи-палки">
+                        <p>500руб</p>
+                    </li>
+                    <li>
+                        <h3>Профессиональная селфи-палка</h3>
+                        <img src="asd" width="360px" height="380px" alt="Фото профессиональной селфи-палки">
+                        <p>1500руб</p>
+                    </li>
+                    <li>
+                        <h3>Непотопляемая селфи-палка</h3>
+                        <img src="asd" width="360px" height="380px" alt="Фото непотопляемой селфи-палки">
+                        <p>2500руб</p>
+                    </li>
+                    <li>
+                        <h3>Селфи-палка «Следуй за мной»</h3>
+                        <img src="asd" width="360px" height="380px" alt="Фото селфи-палки «Следуй за мной»">
+                        <p>4900руб</p>
+                    </li>
+                </ul>
             </section>
         </main>
         <footer class="page-footer">
@@ -67,9 +76,10 @@
                 <li><a href="#">Гарантия</a></li>
                 <li><a href="#">Контакты</a></li>
             </ul>
-            <span class="login-link">
-                <a href="#">Войти</a>
-            </span>
+            <ul class="my-cabinet">
+                <li><a href="#">Валентин Петухов</a></li>
+                <li><a href="#">Выйти</a></li>
+            </ul>
             <span class="compare">
                 <a href="#">Сравнить</a>
             </span>
@@ -98,5 +108,4 @@
             </ul>
             <a><img></a>
         </footer>
-    </body>
 </html>
